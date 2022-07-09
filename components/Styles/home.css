@@ -1,0 +1,14 @@
+* {
+  overflow: auto;
+}
+.home-container {
+  background: linear-gradient(to bottom, rgba(224, 220, 220, 0.1), #4a4c4f),
+    url("/utils/images/foodimage-desktop.jpg");
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
